@@ -96,6 +96,7 @@ body.dark-mode::before {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: clamp(20px, 3vw, 40px);
   box-sizing: border-box;
   gap: clamp(20px, 2vw, 35px);
@@ -111,12 +112,16 @@ body.dark-mode::before {
   flex-shrink: 0;
 }
 
+.bottom-area {
+  display: flex;
+  justify-content: center;
+}
+
 .logo-wrapper {
   position: relative;
   display: inline-block;
   overflow: hidden;
   margin-top: 10px;
-  transform: translateX(45px);
   mix-blend-mode: multiply;
 }
 
@@ -127,17 +132,27 @@ body.dark-mode::before {
   z-index: 1;
 }
 
+.top-area,
+.bottom-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* ===================== */
 /* (RÁDIO) */
 /* ===================== */
-.radio-layout {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: clamp(30px, 4vw, 30px);
-  width: 100%;
-  padding-top: clamp(40px, 5vh, 90px);
+@media (max-width: 1500px) {
+  .radio-layout {
+    flex: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: clamp(30px, 4vw, 30px);
+    width: fit-content;
+    max-width: 100%;
+    padding-top: clamp(40px, 5vh, 90px);
+  }
 }
 
 /* ===================== */
@@ -539,7 +554,7 @@ body.dark-mode::before {
   flex: 1;
   padding: 16px;
   color: #1c1c1c;
-  font-family: "Syntax Ultra BlackS", sans-serif;
+  font-family: "Syntax Ultra Blacks", sans-serif;
   overflow-y: auto;
   scroll-behavior: smooth;
 }
