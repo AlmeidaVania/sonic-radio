@@ -1384,7 +1384,7 @@ body.dark-mode::before {
 /* ===================== */
 
 .player.horizontal .track-title {
-  font-size: 3.8rem;
+  font-size: relative;
   line-height: 1;
 
   font-family:
