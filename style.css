@@ -1634,8 +1634,6 @@ body.dark-mode::before {
 /* ===================== */
 
 .player.super-sonic-mode {
-  animation: superPulse 1.8s ease-in-out infinite;
-  transition: background 0.4s ease, box-shadow 0.4s ease;
 
   background:
     linear-gradient(135deg,
@@ -1747,6 +1745,8 @@ body.dark-mode::before {
 
 .player.super-sonic-mode {
   animation: superGlow 2.5s ease-in-out infinite;
+  animation: superPulse 1.8s ease-in-out infinite;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
 }
 
 /* ===================== */
@@ -1975,38 +1975,6 @@ body.dark-mode::before {
 
   filter:
     brightness(1.05) saturate(1.05);
-}
-
-/* ============================= */
-/* SUNSET                        */
-/* ============================= */
-
-.progress.world-sunset {
-
-  --c1: #ff905c;
-  --c2: #ffcf7a;
-  --glow: rgba(255, 140, 100, 0.42);
-
-  filter:
-    brightness(1) saturate(1.12);
-}
-
-/* ============================= */
-/* NIGHT                         */
-/* ============================= */
-
-.progress.world-night {
-
-  --c1: #101a36;
-  --c2: #35507c;
-  --glow: rgba(120, 150, 255, 0.18);
-
-  filter:
-    brightness(0.72) saturate(0.88);
-}
-
-.progress.world-night::before {
-  opacity: 0.15;
 }
 
 /* ============================= */
