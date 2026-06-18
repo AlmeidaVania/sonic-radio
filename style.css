@@ -54,11 +54,6 @@ body {
   position: relative;
 }
 
-body.dark-mode {
-  background: url("assets/background/sonicbg-darkmode.png") no-repeat center center;
-  background-size: cover;
-}
-
 /* MOBILE */
 @media (max-width: 768px) {
   body {
@@ -152,7 +147,7 @@ body.dark-mode::before {
 
 .logo {
   display: block;
-  height: clamp(130px, 16vw, 220px);
+  height: clamp(100px, 16vw, 220px);
   position: relative;
   z-index: 1;
 }
@@ -1211,11 +1206,11 @@ text-shadow:
 .screenshot-layer {
   position: absolute;
 
-  top: 20px;
+  top: clamp(14px, 2vw, 20px);
   left: 50%;
 
-  width: 200px;
-  height: 200px;
+  width: var(--cover-size);
+  height: var(--cover-size);
 
   object-fit: cover;
 
@@ -1250,13 +1245,13 @@ text-shadow:
 
 .metadata {
   width: 100%;
-  min-height: 55px;
+  min-height: clamp(50px, 6vw, 70px);
   /* reserva espaço fixo para título + jogo */
 }
 
 .metadata h2 {
   margin: 5px 0;
-  font-size: 16px;
+  font-size: clamp(14px, 1.1vw, 16px);
   font-family: "Syntax Ultra Black", sans-serif;
   font-style: italic;
   letter-spacing: 0.5px;
@@ -1278,8 +1273,9 @@ text-shadow:
   text-overflow: ellipsis;
   font-style: italic;
   font-family: "Syntax Regular", sans-serif;
-  letter-spacing: 0.8px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.55);
+  font-size: clamp(10px, 0.8vw, 13px);
+  letter-spacing: clamp(0.4px, 0.08vw, 0.8px);
 }
 
 .time-display {
@@ -1289,8 +1285,7 @@ text-shadow:
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.55);
   opacity: 0.8;
   margin-bottom: 0.5px;
-  transform: translateY(-5px);
-
+  margin-top: -4px;
 }
 
 /* ===================== */
@@ -1299,7 +1294,7 @@ text-shadow:
 
 .progress-container {
   width: 100%;
-  height: 6px;
+  height: clamp(5px, 0.45vw, 7px);
   background: rgba(0, 0, 0, 0.144);
   border-radius: 10px;
   cursor: pointer;
@@ -1535,8 +1530,6 @@ text-shadow:
 /* ===================== */
 
 .player.super-sonic-mode {
-  animation: superPulse 1.8s ease-in-out infinite;
-  transition: background 0.4s ease, box-shadow 0.4s ease;
 
   background:
   linear-gradient(
@@ -1596,7 +1589,7 @@ box-shadow:
   box-shadow:
     0 0 10px #ffe600,
     0 0 20px #ffcc00,
-    0 0 34px rgba(255,230,0,0.9);
+    0 0 20px rgba(255,230,0,0.9);
 
   animation:
     superBar 1.8s linear infinite;
@@ -1645,9 +1638,10 @@ box-shadow:
 }
 
 .player.super-sonic-mode {
-  animation: superGlow 2.5s ease-in-out infinite;
+  animation:
+    superPulse 1.8s ease-in-out infinite,
+    superGlow 2.5s ease-in-out infinite;
 }
-
 /* ===================== */
 /* DIAMOND IN THE SKY    */
 /* ===================== */
@@ -1781,14 +1775,12 @@ box-shadow:
     0 0 10px var(--glow),
     0 0 24px var(--glow);
 
-  transition:
-    width 0.15s linear,
-    box-shadow 3.5s ease,
-    filter 3.5s ease,
-    opacity 1.5s ease,
-    --c1 3.5s ease,
-    --c2 3.5s ease,
-    --glow 3.5s ease;
+transition:
+  width 0.15s linear,
+  background 3.5s ease,
+  box-shadow 3.5s ease,
+  filter 3.5s ease,
+  opacity 1.5s ease;
 
   filter:
     brightness(1)
@@ -1815,7 +1807,7 @@ box-shadow:
     );
 
   mix-blend-mode: screen;
-
+  will-change: transform, opacity, filter, background-position;
   pointer-events: none;
 
   transition:
@@ -1886,40 +1878,6 @@ box-shadow:
   filter:
     brightness(1.05)
     saturate(1.05);
-}
-
-/* ============================= */
-/* SUNSET                        */
-/* ============================= */
-
-.progress.world-sunset {
-
-  --c1: #ff905c;
-  --c2: #ffcf7a;
-  --glow: rgba(255, 140, 100, 0.42);
-
-  filter:
-    brightness(1)
-    saturate(1.12);
-}
-
-/* ============================= */
-/* NIGHT                         */
-/* ============================= */
-
-.progress.world-night {
-
-  --c1: #101a36;
-  --c2: #35507c;
-  --glow: rgba(120, 150, 255, 0.18);
-
-  filter:
-    brightness(0.72)
-    saturate(0.88);
-}
-
-.progress.world-night::before {
-  opacity: 0.15;
 }
 
 /* ============================= */
@@ -2220,9 +2178,9 @@ box-shadow:
 .player.shadow-mode #trackTitle {
   color: #500000;
   text-shadow:
-    0 0 1px rgba(120,0,0,0.42),
-    0 0 1px rgba(163,0,0,0.35),
-    0 0 1px rgba(255,0,0,0.16);
+    0 0 4px rgba(120,0,0,0.42),
+    0 0 8px rgba(163,0,0,0.35),
+    0 0 12px rgba(255,0,0,0.16);
 }
 
 .player.shadow-mode #trackGame {
@@ -2326,6 +2284,7 @@ box-shadow:
 
 .progress.crisis-tornado {
 
+  background-size: 200% 100%;
   background:
     linear-gradient(
       90deg,
@@ -2424,10 +2383,20 @@ box-shadow:
 
 }
 
-/* SONIC 1 PLAYERS */
-.player.greenhill-mode {
+.player[class*="-mode"] {
   position: relative;
   overflow: hidden;
+}
+
+
+.player[class*="-mode"] > * {
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
+}
+
+/* SONIC 1 PLAYERS */
+.player.greenhill-mode {
 
   background: #9a5a24;
 
@@ -2486,12 +2455,6 @@ box-shadow:
   z-index: 0;
 }
 
-.player.greenhill-mode > * {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
-}
-
 .player.greenhill-mode #trackTitle {
   color: #28b44b;
 
@@ -2522,8 +2485,6 @@ box-shadow:
 }
 
 .player.marble-mode {
-  position: relative;
-  overflow: hidden;
 
   background: transparent;
 
@@ -2579,12 +2540,6 @@ box-shadow:
   z-index: 0;
 }
 
-.player.marble-mode > * {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
-}
-
 .player.marble-mode #trackTitle {
   color: #b48ef7;
 
@@ -2615,9 +2570,6 @@ box-shadow:
 }
 
 .player.springyard-mode {
-  position: relative;
-  overflow: hidden;
-
   background: #b14f1f;
 
   border-top: 6px solid #ffcc4d;
@@ -2680,12 +2632,6 @@ box-shadow:
   z-index: 0;
 }
 
-.player.springyard-mode > * {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
-}
-
 .player.springyard-mode #trackTitle {
   color: #fff1d9;
 
@@ -2709,8 +2655,6 @@ box-shadow:
 }
 
 .player.labyrinth-mode {
-  position: relative;
-  overflow: hidden;
 
   background: #ffbc2c;
 
@@ -2766,12 +2710,6 @@ box-shadow:
   z-index: 0;
 }
 
-.player.labyrinth-mode > * {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
-}
-
 /* Typography */
 
 .player.labyrinth-mode #trackTitle {
@@ -2804,8 +2742,6 @@ box-shadow:
 }
 
 .player.starlight-mode {
-  position: relative;
-  overflow: hidden;
 
   background: #00233b;
 
@@ -2861,12 +2797,6 @@ box-shadow:
   z-index: 0;
 }
 
-.player.starlight-mode > * {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
-}
-
 /* Typography */
 
 .player.starlight-mode #trackTitle {
@@ -2899,8 +2829,6 @@ box-shadow:
 }
 
 .player.scrapbrain-mode {
-  position: relative;
-  overflow: hidden;
 
   background: #5c6a70;
 
@@ -2956,12 +2884,6 @@ box-shadow:
   z-index: 0;
 }
 
-.player.scrapbrain-mode > * {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
-}
-
 /* Typography */
 
 .player.scrapbrain-mode #trackTitle {
@@ -2994,8 +2916,6 @@ box-shadow:
 }
 
 .player.specialstage-mode {
-  position: relative;
-  overflow: hidden;
 
   background: #000231;
 
@@ -3051,12 +2971,6 @@ box-shadow:
   z-index: 0;
 }
 
-.player.specialstage-mode > * {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
-}
-
 /* Typography */
 
 .player.specialstage-mode #trackTitle {
@@ -3090,8 +3004,6 @@ box-shadow:
 }
 
 .player.finalzone-mode {
-  position: relative;
-  overflow: hidden;
 
   background: #58787a;
 
@@ -3145,12 +3057,6 @@ box-shadow:
 
   pointer-events: none;
   z-index: 0;
-}
-
-.player.finalzone-mode > * {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
 }
 
 /* Typography */
@@ -3358,8 +3264,6 @@ box-shadow:
 ================================ */
 
 .player.emeraldhill-mode {
-  position: relative;
-  overflow: hidden;
 
   background-color: transparent;
 
@@ -3450,8 +3354,6 @@ opacity: .95;
 ================================ */
 
 .player.chemicalplant-mode {
-  position: relative;
-  overflow: hidden;
 
   background: #34205f;
 
@@ -4113,12 +4015,9 @@ background-color: #1a1a1a;
 /* ===================== */
 
 .credit {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 1);
   font-size: 12px;
   font-style: italic;
   font-family: "Syntax Ultra Black", sans-serif;
   margin-right: -10px;
-  text-shadow:
-    2px 2px 6px rgba(0, 0, 0, 0.85),
-    0 0 10px rgba(0, 170, 255, 0.25);
 }
