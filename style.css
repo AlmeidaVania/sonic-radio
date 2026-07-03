@@ -4281,7 +4281,7 @@ body.oled-mode .player.shadow-mode #trackComposer {
 }
 
 .player.greenhill-mode #trackTitle {
-  color: #0E8F30;
+  color: #FFFFFF;
 
   text-shadow:
     2px 2px 0 rgba(80, 40, 0, .65),
