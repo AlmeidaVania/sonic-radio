@@ -732,6 +732,10 @@ body.oled-mode::before {
   border-radius: 10px;
 }
 
+/* ===================== */
+/* DARK MODE - PLAYLIST  */
+/* ===================== */
+
 body.dark-mode .playlist {
 
   background:
@@ -1932,12 +1936,41 @@ body.oled-mode .subgame-title:hover {
 
   opacity: 1;
   transform: scale(1);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
 }
 
 /* estado durante troca */
 .player-cover.changing {
   opacity: 0;
   transform: scale(0.96);
+}
+
+.player-cover.pop {
+  animation: coverPop .42s cubic-bezier(.22, 1, .36, 1);
+}
+
+@keyframes coverPop {
+
+  0% {
+    opacity: 0;
+    transform: scale(.94);
+  }
+
+  55% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+
+  75% {
+    transform: scale(.985);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
 }
 
 .player-column {
@@ -4537,8 +4570,9 @@ body.oled-mode .player.greenhillgens2-mode {
     0 6px 16px rgba(0, 0, 0, .28);
 
   transition:
-    transform .2s ease,
+    transform .18s cubic-bezier(.22, 1, .36, 1),
     box-shadow .25s ease,
+    filter .25s ease,
     background .25s ease;
 
 }
