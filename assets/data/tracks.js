@@ -3695,5 +3695,444 @@ const tierlistSongs = [
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/lavapowerhousearranged.flac",
         cover: "assets/covers/sonic-spinball.webp"
     },
+    {
+        id: "segasonic-ill-get-you-yet",
+        title: "I'll Get You Yet!",
+        game: "SegaSonic the Hedgehog",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/segasonic/eggmanislandmap.mp3",
+        cover: "assets/covers/segasonic.webp"
+    },
+
+    {
+        id: "segasonic-quick-escape",
+        title: "Quick! Escape!",
+        game: "SegaSonic the Hedgehog",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/segasonic/volcanicvault.mp3",
+        cover: "assets/covers/segasonic.webp"
+    },
+
+    {
+        id: "segasonic-ice-and-water",
+        title: "Ice & Water",
+        game: "SegaSonic the Hedgehog",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/segasonic/icyisle.mp3",
+        cover: "assets/covers/segasonic.webp"
+    },
+
+    {
+        id: "segasonic-hot-pursuit",
+        title: "Hot Pursuit",
+        game: "SegaSonic the Hedgehog",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/segasonic/desertdodge.mp3",
+        cover: "assets/covers/segasonic.webp"
+    },
+
+    {
+        id: "segasonic-trap-tower",
+        title: "Trap Tower",
+        game: "SegaSonic the Hedgehog",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/segasonic/traptower.mp3",
+        cover: "assets/covers/segasonic.webp"
+    },
+
+    {
+        id: "segasonic-run-run-run",
+        title: "Run Run Run!",
+        game: "SegaSonic the Hedgehog",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/segasonic/landslidelimbo.mp3",
+        cover: "assets/covers/segasonic.webp"
+    },
+
+    {
+        id: "segasonic-eggmans-tower",
+        title: "Eggman's Tower",
+        game: "SegaSonic the Hedgehog",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/segasonic/eggmanstower.mp3",
+        cover: "assets/covers/segasonic.webp"
+    },
+
+    {
+        id: "segasonic-all-over",
+        title: "All Over",
+        game: "SegaSonic the Hedgehog",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/segasonic/credits.mp3",
+        cover: "assets/covers/segasonic.webp"
+    },
+
+    {
+        id: "tails-music-maker-title-screen",
+        title: "Title Screen",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/titlescreen.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-page-1-travels-with-tails",
+        title: "Page 1 - Travels With Tails",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/page1.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-page-2-percussion-pinball",
+        title: "Page 2 - Percussion Pinball",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/page2.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-page-3-the-great-wall-of-music",
+        title: "Page 3 - The Great Wall of Music",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/page3.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-page-4-making-a-musical-match",
+        title: "Page 4 - Making a Musical Match",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/page4.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-canon-in-d",
+        title: "Canon in D",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/canonind.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-scherzo",
+        title: "Scherzo from A Midsummer Night's Dream",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/scherzo.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-rondo-alla-turca",
+        title: "Rondo Alla Turca from Sonata in A (K. 331)",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/rondoalla.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-waltz-in-d-flat-major",
+        title: "Waltz in D-flat Major, Op. 64, No. 1",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/waltz.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-six-moments-musicaux",
+        title: "Six Moments Musicaux, Op. 94, No. 3 (D 780)",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/sixmoments.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-invention-no-4",
+        title: "Invention No. 4 (BWV 775)",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/invention.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-piano-sonata-no-14",
+        title: "Piano Sonata No. 14",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/pianosonata.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-twinkle-twinkle-little-star",
+        title: "Twinkle Twinkle Little Star",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/twinkletwinkle.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-farmer-in-the-dell",
+        title: "Farmer in the Dell",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/farmerindell.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-jingle-bells",
+        title: "Jingle Bells",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/jinglebells.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-cat-and-the-fiddle",
+        title: "Cat and the Fiddle",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/catandthefiddle.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-mary-had-a-little-lamb",
+        title: "Mary Had a Little Lamb",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/marylittlelamb.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-three-blind-mice",
+        title: "Three Blind Mice",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/threeblindmice.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-pop-goes-the-weasel",
+        title: "Pop Goes the Weasel",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/popgoesweasel.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-billy-boy",
+        title: "Billy Boy",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/billyboy.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-bicycle-built-for-two",
+        title: "Bicycle Built for Two",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/bicyclefortwo.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-eensie-weensie-spider",
+        title: "Eensie Weensie Spider",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/eensiespider.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-hickory-dickory-dock",
+        title: "Hickory Dickory Dock",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/hickorydick.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-row-row-row-your-boat",
+        title: "Row Row Row Your Boat",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/rowrowrow.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "tails-music-maker-on-top-of-old-smoky",
+        title: "On Top Of Old Smoky",
+        game: "Tails and the Music Maker",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/tails-music-maker/ontopofold.flac",
+        cover: "assets/covers/tails-music-maker.webp"
+    },
+
+    {
+        id: "sonic-drift-title-screen",
+        title: "Title Screen",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/titlescreen.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-options",
+        title: "Options",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/options.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-course-select",
+        title: "Course Select",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/courseselect.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-driver-select",
+        title: "Driver Select",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/driverselect.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-green-hill",
+        title: "Green Hill",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/greenhill.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-marble",
+        title: "Marble",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/marble.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-spring-yard",
+        title: "Spring Yard",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/springyard.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-labyrinth",
+        title: "Labyrinth",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/labyrinth.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-star-light",
+        title: "Star Light",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/starlight.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-scrap-brain",
+        title: "Scrap Brain",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/scrapbrain.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
+
+    {
+        id: "sonic-drift-credits",
+        title: "Credits",
+        game: "Sonic Drift",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-drift/credits.mp3",
+        cover: "assets/covers/sonic-drift.webp"
+    },
 
 ];
