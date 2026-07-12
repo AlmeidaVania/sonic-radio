@@ -1528,7 +1528,7 @@ body.oled-mode .lyric-line {
 }
 
 #trackComposer {
-  font-size: 10px;
+  font-size: clamp(8px, 22vw, 12px);
 
   color: rgba(0, 0, 0, 0.39);
 
@@ -1536,6 +1536,31 @@ body.oled-mode .lyric-line {
 
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.track-composer.scrolling {
+  animation: marquee 12s linear infinite;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.track-composer.scrolling::after {
+  content: attr(data-composer);
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .subgame {
@@ -2145,7 +2170,7 @@ body.oled-mode .subgame-title:hover {
 
   font-size: 0.8rem;
 
-  color: rgba(255, 58, 58, .78);
+  color: rgba(0, 0, 0, 0.72);
 
   text-shadow:
     1px 1px 0 rgba(255, 255, 255, .45);
@@ -2375,7 +2400,7 @@ body.oled-mode .player.horizontal #trackComposer {
 
   pointer-events: none;
 
-  z-index: 1;
+  z-index: 2;
 
   transition:
     opacity 1.2s ease,
@@ -3025,7 +3050,12 @@ body.oled-mode .progress.new-moon.awakened {
 .player.super-sonic-mode #trackComposer {
 
   color:
-    rgba(255, 240, 170, .55);
+    rgb(255, 226, 99);
+
+  text-shadow:
+    0 0 10px rgba(255, 215, 0, .45),
+    0 0 18px rgba(255, 215, 0, .25),
+    0 0 5px rgba(0, 0, 0, .5);
 }
 
 .player.super-sonic-mode .title.scrolling {
@@ -3051,6 +3081,37 @@ body.oled-mode .progress.new-moon.awakened {
   animation:
     superGlow 2.5s ease-in-out infinite,
     superPulse 0.8s ease-in-out infinite;
+}
+
+body .player.super-sonic-mode #trackTitle {
+
+  color: #ffe02f;
+
+  text-shadow:
+    0 0 10px rgba(255, 215, 0, .45),
+    0 0 18px rgba(255, 215, 0, .25),
+    0 0 5px rgba(0, 0, 0, .5);
+}
+
+body .player.super-sonic-mode #trackGame {
+
+  color:
+    rgb(255, 231, 74);
+
+  text-shadow:
+    0 0 10px rgba(255, 215, 0, .45),
+    0 0 18px rgba(255, 215, 0, .25),
+    0 0 5px rgba(0, 0, 0, .5);
+}
+
+body .player.super-sonic-mode #timeDisplay {
+
+  color: #ffe02f;
+
+  text-shadow:
+    0 0 10px rgba(255, 215, 0, .45),
+    0 0 18px rgba(255, 215, 0, .25),
+    0 0 5px rgba(0, 0, 0, .5);
 }
 
 body.dark-mode .player.super-sonic-mode .track-title {
@@ -4340,6 +4401,46 @@ body.oled-mode .player.shadow-mode #trackComposer {
 
   text-shadow:
     1px 1px 2px rgba(0, 0, 0, .45);
+}
+
+.player.greenhill-mode .screenshot-layer {
+  position: absolute;
+
+  top: 20px;
+  left: 50%;
+
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  transform:
+    translateX(-50%) scale(1.02);
+
+  opacity: 0;
+
+  pointer-events: none;
+
+  z-index: 2;
+
+  transition:
+    opacity 1.2s ease,
+    transform 1.2s ease;
+}
+
+/* screenshot visível */
+
+.player.greenhill-mode .screenshot-layer.visible {
+  opacity: 1;
+
+  transform:
+    translateX(-50%) scale(1);
+}
+
+.player.greenhill-mode .screenshot-layer.hidden {
+  opacity: 0 !important;
 }
 
 body.dark-mode .player.greenhill-mode {

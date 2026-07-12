@@ -33,6 +33,18 @@ document
   .appendChild(screenshotLayer);
 
 const screenshotMap = {
+  //Sonic 1//
+  "Sonic the Hedgehog (1991)|Green Hill Zone": {
+    folder: "sonic1/greenhill",
+    prefix: "greenhill",
+    total: 8
+  },
+  "Sonic the Hedgehog (1991)|Green Hill Zone (Olympic Mix)": {
+    folder: "sonic1/greenhill",
+    prefix: "greenhill",
+    total: 8
+  },
+  //Sonic 2//
   //Sonic 3 & Knuckles//
   "Sonic 3 & Knuckles|Angel Island Zone Act 1": {
     folder: "sonic3/angelisland1",
@@ -3429,6 +3441,13 @@ document
         title.nextElementSibling.classList.toggle(
           "open"
         );
+        const parentTracks =
+          title.closest(".tracks");
+
+        requestAnimationFrame(() => {
+          parentTracks.style.maxHeight =
+            parentTracks.scrollHeight + "px";
+        });
       }
     );
   });
