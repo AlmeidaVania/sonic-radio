@@ -1781,215 +1781,6 @@ function loadTrack(index) {
       ],
       className: "greenhill-mode"
     },
-    {
-      src: "marblezone",
-      games: [
-        "Sonic the Hedgehog (1991)"
-      ],
-      className: "marble-mode"
-    },
-
-    {
-      src: "springyard",
-      className: "springyard-mode"
-    },
-
-    // ================================
-    // LABYRINTH (16-BIT)
-    // ================================
-
-    {
-      src: "labyrinth",
-      games: [
-        "Sonic the Hedgehog (1991)"
-      ],
-      className: "labyrinth-mode"
-    },
-
-    {
-      src: "starlight",
-      games: [
-        "Sonic the Hedgehog (1991)"
-      ],
-      className: "starlight-mode"
-    },
-
-    {
-      src: "scrapbrain",
-      games: [
-        "Sonic the Hedgehog (1991)"
-      ],
-      className: "scrapbrain-mode"
-    },
-
-    {
-      src: "specialstage",
-      games: [
-        "Sonic the Hedgehog (1991)"
-      ],
-      className: "specialstage-mode"
-    },
-
-    {
-      src: "boss",
-      games: [
-        "Sonic the Hedgehog (1991)"
-      ],
-      className: "boss-mode"
-    },
-
-    {
-      src: "finalzone",
-      games: [
-        "Sonic the Hedgehog (1991)"
-      ],
-      className: "finalzone-mode"
-    },
-    // ================================
-    // BRIDGE ZONE
-    // ================================
-
-    {
-      src: "bridge",
-      games: [
-        "Sonic the Hedgehog (8-bit)"
-      ],
-      className: "bridge-mode"
-    },
-
-    // ================================
-    // JUNGLE ZONE
-    // ================================
-
-    {
-      src: "jungle",
-      games: [
-        "Sonic the Hedgehog (8-bit)"
-      ],
-      className: "jungle-mode"
-    },
-
-    // ================================
-    // LABYRINTH (8-BIT)
-    // ================================
-
-    {
-      src: "labyrinth",
-      games: [
-        "Sonic the Hedgehog (8-bit)"
-      ],
-      className: "labyrinth-8bit-mode"
-    },
-
-    // ================================
-    // SCRAP BRAIN (8-BIT)
-    // ================================
-
-    {
-      src: "scrapbrain",
-      games: [
-        "Sonic the Hedgehog (8-bit)"
-      ],
-      className: "scrapbrain-8bit-mode"
-    },
-
-    // ================================
-    // SKY BASE
-    // ================================
-
-    {
-      src: "skybase",
-      games: [
-        "Sonic the Hedgehog (8-bit)"
-      ],
-      className: "skybase-mode"
-    },
-
-    // ================================
-    // SONIC 2
-    // ================================
-
-    {
-      src: "emeraldhill",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "emeraldhill-mode"
-    },
-
-    {
-      src: "chemicalplant",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "chemicalplant-mode"
-    },
-
-    {
-      src: "aquaticruin",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "aquaticruin-mode"
-    },
-
-    {
-      src: "casinonight",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "casinonight-mode"
-    },
-
-    {
-      src: "hilltop",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "hilltop-mode"
-    },
-
-    {
-      src: "mysticcave",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "mysticcave-mode"
-    },
-
-    {
-      src: "hiddenpalace",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "hiddenpalace-mode"
-    },
-
-    {
-      src: "oilocean",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "oilocean-mode"
-    },
-
-    {
-      src: "metropolis",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "metropolis-mode"
-    },
-
-    {
-      src: "protopalace",
-      games: [
-        "Sonic the Hedgehog 2"
-      ],
-      className: "protopalace-mode"
-    },
-
-
 
     // ================================
     // SONIC GENERATIONS
@@ -2009,6 +1800,52 @@ function loadTrack(index) {
         "Sonic Generations"
       ],
       className: "greenhillgens2-mode"
+    },
+
+    {
+      src: "chemicalplant1",
+      games: [
+        "Sonic Generations"
+      ],
+      className: "chemicalplant1-mode"
+    },
+
+    {
+      src: "chemicalplant2",
+      games: [
+        "Sonic Generations"
+      ],
+      className: "chemicalplant2-mode"
+    },
+
+    {
+      src: "skysanctuary1",
+      games: [
+        "Sonic Generations"
+      ],
+      className: "skysanctuary1-mode"
+    },
+    {
+      src: "skysanctuary2",
+      games: [
+        "Sonic Generations"
+      ],
+      className: "skysanctuary2-mode"
+    },
+
+    {
+      src: "speedhighway1",
+      games: [
+        "Sonic Generations"
+      ],
+      className: "speedhighway1-mode"
+    },
+    {
+      src: "speedhighway2",
+      games: [
+        "Sonic Generations"
+      ],
+      className: "speedhighway2-mode"
     }
   ];
 

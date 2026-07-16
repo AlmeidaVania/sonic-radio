@@ -4528,10 +4528,10 @@ body.oled-mode .player.greenhill-mode #timeDisplay {
 
 .player.greenhillgens1-mode {
 
-  background-color: #1a1a1a;
+  background-color: transparent;
 
   background:
-    linear-gradient(rgba(12, 12, 12, .82),
+    linear-gradient(rgba(243, 243, 243, .82),
       rgba(12, 12, 12, .82)),
     url("assets/patterns/greenhillgens1-tile.gif");
 
@@ -4550,6 +4550,35 @@ body.oled-mode .player.greenhill-mode #timeDisplay {
 
 }
 
+.player.greenhillgens1-mode #trackTitle {
+  color: #FFFFFF;
+
+  text-shadow:
+    2px 2px 0 rgba(12, 12, 12, .65),
+    0 0 8px rgba(12, 12, 12, .25);
+}
+
+.player.greenhillgens1-mode #trackGame {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 50, 90, .45);
+}
+
+.player.greenhillgens1-mode #trackComposer {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 70, 20, .35);
+}
+
+.player.greenhillgens1-mode #timeDisplay {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, .45);
+}
+
 body.dark-mode .player.greenhillgens1-mode {
 
   box-shadow:
@@ -4559,10 +4588,10 @@ body.dark-mode .player.greenhillgens1-mode {
 
 .player.greenhillgens2-mode {
 
-  background-color: #1a1a1a;
+  background-color: transparent;
 
   background:
-    linear-gradient(rgba(12, 12, 12, .82),
+    linear-gradient(rgba(243, 243, 243, .82),
       rgba(12, 12, 12, .82)),
     url("assets/patterns/greenhillgens2-tile.gif");
 
@@ -4578,6 +4607,35 @@ body.dark-mode .player.greenhillgens1-mode {
   box-shadow:
     0 0 10px rgba(255, 140, 50, 0.55),
     0 0 28px rgba(255, 140, 50, 0.20);
+}
+
+.player.greenhillgens2-mode #trackTitle {
+  color: #FFFFFF;
+
+  text-shadow:
+    2px 2px 0 rgba(12, 12, 12, .65),
+    0 0 8px rgba(12, 12, 12, .25);
+}
+
+.player.greenhillgens2-mode #trackGame {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 50, 90, .45);
+}
+
+.player.greenhillgens2-mode #trackComposer {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 70, 20, .35);
+}
+
+.player.greenhillgens2-mode #timeDisplay {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, .45);
 }
 
 body.dark-mode .player.greenhillgens2-mode {
@@ -4617,6 +4675,246 @@ body.oled-mode .player.greenhillgens2-mode {
 
   box-shadow:
     0 0 6px rgba(255, 140, 50, .25);
+}
+
+.player.skysanctuary1-mode {
+
+  background-color: transparent;
+
+  background:
+    linear-gradient(rgba(243, 243, 243, .82),
+      rgba(12, 12, 12, .82)),
+    url("assets/patterns/skysanctuarygens1-tile.gif");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-top: 6px solid #0E8F30;
+  border-bottom: 6px solid #0C3CBD;
+  border-left: 6px solid #FBD200;
+  border-right: 6px solid #ff2a2a;
+
+  box-shadow:
+    0 0 10px rgba(255, 140, 50, 0.55),
+    0 0 28px rgba(255, 140, 50, 0.20);
+
+}
+
+.player.skysanctuary1-mode #trackTitle {
+  color: #FFFFFF;
+
+  text-shadow:
+    2px 2px 0 rgba(12, 12, 12, .65),
+    0 0 8px rgba(12, 12, 12, .25);
+}
+
+.player.skysanctuary1-mode #trackGame {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 50, 90, .45);
+}
+
+.player.skysanctuary1-mode #trackComposer {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 70, 20, .35);
+}
+
+.player.skysanctuary1-mode #timeDisplay {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, .45);
+}
+
+body.dark-mode .player.skysanctuary1-mode {
+
+  box-shadow:
+    0 0 14px rgba(255, 140, 50, .70),
+    0 0 36px rgba(255, 140, 50, .30);
+}
+
+.player.skysanctuary2-mode {
+
+  background-color: transparent;
+
+  background:
+    linear-gradient(rgba(243, 243, 243, .82),
+      rgba(12, 12, 12, .82)),
+    url("assets/patterns/skysanctuarygens2-tile.gif");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-top: 6px solid #0E8F30;
+  border-bottom: 6px solid #0C3CBD;
+  border-left: 6px solid #FBD200;
+  border-right: 6px solid #ff2a2a;
+
+  box-shadow:
+    0 0 10px rgba(255, 140, 50, 0.55),
+    0 0 28px rgba(255, 140, 50, 0.20);
+
+}
+
+.player.skysanctuary2-mode #trackTitle {
+  color: #FFFFFF;
+
+  text-shadow:
+    2px 2px 0 rgba(12, 12, 12, .65),
+    0 0 8px rgba(12, 12, 12, .25);
+}
+
+.player.skysanctuary2-mode #trackGame {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 50, 90, .45);
+}
+
+.player.skysanctuary2-mode #trackComposer {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 70, 20, .35);
+}
+
+.player.skysanctuary2-mode #timeDisplay {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, .45);
+}
+
+body.dark-mode .player.skysanctuary2-mode {
+
+  box-shadow:
+    0 0 14px rgba(255, 140, 50, .70),
+    0 0 36px rgba(255, 140, 50, .30);
+}
+
+.player.speedhighway1-mode {
+
+  background-color: transparent;
+
+  background:
+    linear-gradient(rgba(243, 243, 243, .82),
+      rgba(12, 12, 12, .82)),
+    url("assets/patterns/speedhighwaygens1-tile.gif");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-top: 6px solid #0E8F30;
+  border-bottom: 6px solid #0C3CBD;
+  border-left: 6px solid #FBD200;
+  border-right: 6px solid #ff2a2a;
+
+  box-shadow:
+    0 0 10px rgba(255, 140, 50, 0.55),
+    0 0 28px rgba(255, 140, 50, 0.20);
+
+}
+
+.player.speedhighway1-mode #trackTitle {
+  color: #FFFFFF;
+
+  text-shadow:
+    2px 2px 0 rgba(12, 12, 12, .65),
+    0 0 8px rgba(12, 12, 12, .25);
+}
+
+.player.speedhighway1-mode #trackGame {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 50, 90, .45);
+}
+
+.player.speedhighway1-mode #trackComposer {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 70, 20, .35);
+}
+
+.player.speedhighway1-mode #timeDisplay {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, .45);
+}
+
+body.dark-mode .player.speedhighway1-mode {
+
+  box-shadow:
+    0 0 14px rgba(255, 140, 50, .70),
+    0 0 36px rgba(255, 140, 50, .30);
+}
+
+.player.speedhighway2-mode {
+
+  background-color: transparent;
+
+  background:
+    linear-gradient(rgba(243, 243, 243, .82),
+      rgba(12, 12, 12, .82)),
+    url("assets/patterns/speedhighwaygens2-tile.gif");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-top: 6px solid #0E8F30;
+  border-bottom: 6px solid #0C3CBD;
+  border-left: 6px solid #FBD200;
+  border-right: 6px solid #ff2a2a;
+
+  box-shadow:
+    0 0 10px rgba(255, 140, 50, 0.55),
+    0 0 28px rgba(255, 140, 50, 0.20);
+
+}
+
+.player.speedhighway2-mode #trackTitle {
+  color: #FFFFFF;
+
+  text-shadow:
+    2px 2px 0 rgba(12, 12, 12, .65),
+    0 0 8px rgba(12, 12, 12, .25);
+}
+
+.player.speedhighway2-mode #trackGame {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 50, 90, .45);
+}
+
+.player.speedhighway2-mode #trackComposer {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(20, 70, 20, .35);
+}
+
+.player.speedhighway2-mode #timeDisplay {
+  color: white;
+
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, .45);
+}
+
+body.dark-mode .player.speedhighway2-mode {
+
+  box-shadow:
+    0 0 14px rgba(255, 140, 50, .70),
+    0 0 36px rgba(255, 140, 50, .30);
 }
 
 /* ===================== */
