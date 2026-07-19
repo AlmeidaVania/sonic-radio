@@ -982,18 +982,1826 @@ const lyricsMap = {
     },
   ],
   "Sonic CD (US)|Sonic Boom (Ending)": [
+    {
+      time: 17.9,
+      text: "If you're strong, you can fly"
+    },
+    {
+      time: 19.9,
+      text: "You can reach the other side of the rainbow"
+    },
+    {
+      time: 26.3,
+      text: "It's all right, take a chance"
+    },
+    {
+      time: 27.5,
+      text: "Cause there is no circumstance that you can't handle"
+    },
+    {
+      time: 33.1,
+      text: "When you use your mind"
+    },
+    {
+      time: 34.7,
+      text: "Mr. Bad's got it good"
+    },
+    {
+      time: 36.8,
+      text: "But this ain't his neighborhood"
+    },
+    {
+      time: 38.8,
+      text: "He's taking over, no, no"
+    },
+    {
+      time: 43.2,
+      text: "Time is now, he can't hide"
+    },
+    {
+      time: 45.4,
+      text: "Find the power deep inside"
+    },
+    {
+      time: 47.2,
+      text: "And make it happen"
+    },
+    {
+      time: 51.6,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 58.6,
+      text: "Trouble keeps you running faster"
+    },
+    {
+      time: 60.5,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 67.1,
+      text: "Save the planet from disaster"
+    },
+    {
+      time: 68,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 75.5,
+      text: "Spinning through a world in motion"
+    },
+    {
+      time: 78,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 82.0,
+      text: "Take it all the way!"
+    },
+    {
+      time: 94.1,
+      text: "Make your move, break it out"
+    },
+    {
+      time: 96.3,
+      text: "That's what life is all about"
+    },
+    {
+      time: 98.2,
+      text: "It's your adventure"
+    },
+    {
+      time: 102.6,
+      text: "Through the dark, to the light"
+    },
+    {
+      time: 104.8,
+      text: "It's a supersonic flight"
+    },
+    {
+      time: 106.7,
+      text: "Got to keep it goin'"
+    },
+    {
+      time: 111.1,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 116.5,
+      text: "Trouble keeps you running faster"
+    },
+    {
+      time: 121,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 126.6,
+      text: "Save the planet from disaster"
+    },
+    {
+      time: 128.5,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 135.0,
+      text: "Spinning through a world in motion"
+    },
+    {
+      time: 138,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 141.4,
+      text: "Take it all the way!"
+    },
+    {
+      time: 162.1,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 164.7,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 170.6,
+      text: "Sonic Boom, Sonic Boom"
+    },
+    {
+      time: 179.1,
+      text: "Sonic Boom, Sonic Boom"
+    }
   ],
   "Sonic 3D Blast (Saturn)|You're My Hero": [
+    {
+      time: 21.7,
+      text: "I was trapped inside for so very long..."
+    },
+    {
+      time: 26.7,
+      text: "How could things turn out so wrong"
+    },
+    {
+      time: 31.0,
+      text: "You came along to save the day..."
+    },
+    {
+      time: 35.5,
+      text: "I knew that it would be okay"
+    },
+    {
+      time: 40.0,
+      text: "My knight in shining armor came"
+    },
+    {
+      time: 44.6,
+      text: "My life would never be the same!"
+    },
+    {
+      time: 48.4,
+      text: "'Cause you're my hero"
+    },
+    {
+      time: 51.3,
+      text: "You came to rescue me!"
+    },
+    {
+      time: 53.8,
+      text: "And now you've set me free"
+    },
+    {
+      time: 59.8,
+      text: "There's so much that I want to make you see!"
+    },
+    {
+      time: 67.4,
+      text: "You're my hero"
+    },
+    {
+      time: 69.4,
+      text: "Don't ever let me go!"
+    },
+    {
+      time: 74.0,
+      text: "I just want you to know"
+    },
+    {
+      time: 78.0,
+      text: "There's so much inside and I want to let it show!"
+    },
+    {
+      time: 94.3,
+      text: "And now I owe so much to you..."
+    },
+    {
+      time: 98.7,
+      text: "Is there anything that I can do?"
+    },
+    {
+      time: 103.5,
+      text: "I want to show you that I care"
+    },
+    {
+      time: 108.2,
+      text: "When you need me, I'll be there!"
+    },
+    {
+      time: 112.5,
+      text: "I hope that you don't go away"
+    },
+    {
+      time: 117.0,
+      text: "I'll always wish that you would stay!"
+    },
+    {
+      time: 120.9,
+      text: "'Cause you're my hero"
+    },
+    {
+      time: 123.9,
+      text: "You came to rescue me!"
+    },
+    {
+      time: 131.6,
+      text: "And now you've set me free"
+    },
+    {
+      time: 132,
+      text: "There's so much that I want to make you see!"
+    },
+    {
+      time: 139.5,
+      text: "You're my hero"
+    },
+    {
+      time: 141.8,
+      text: "Don't ever let me go!"
+    },
+    {
+      time: 146.5,
+      text: "I just want you to know"
+    },
+    {
+      time: 150.5,
+      text: "There's so much inside and I want to let it show!"
+    },
+    {
+      time: 157.1,
+      text: "'Cause you're my hero"
+    },
+    {
+      time: 159,
+      text: "You came to rescue me!"
+    },
+    {
+      time: 164.5,
+      text: "And now you've set me free"
+    },
+    {
+      time: 168.5,
+      text: "There's so much that I want to make you see!"
+    },
+    {
+      time: 175.3,
+      text: "You're my hero"
+    },
+    {
+      time: 177.6,
+      text: "Don't ever let me go!"
+    }
   ],
   "Sonic R|Can You Feel the Sunshine?": [
+    {
+      time: 13.2,
+      text: "Can you see? The sun is shinin' on me"
+    },
+    {
+      time: 18.2,
+      text: "It makes me feel so free, so alive!"
+    },
+    {
+      time: 22.7,
+      text: "It makes me want to survive!"
+    },
+    {
+      time: 25.2,
+      text: "And the sky, it makes me feel so high"
+    },
+    {
+      time: 30.3,
+      text: "The bad times pass me by"
+    },
+    {
+      time: 32.9,
+      text: "'Cause today is gonna be a brighter day!"
+    },
+    {
+      time: 39.6,
+      text: "Can you feel the sunshine?"
+    },
+    {
+      time: 42.1,
+      text: "Does it brighten up your day?"
+    },
+    {
+      time: 45.6,
+      text: "Don't you feel that sometimes you just need to run away?"
+    },
+    {
+      time: 51.7,
+      text: "Reach out for the sunshine"
+    },
+    {
+      time: 54.6,
+      text: "Forget about the rain"
+    },
+    {
+      time: 57.6,
+      text: "Just think about the good times"
+    },
+    {
+      time: 60.5,
+      text: "And they will come back again"
+    },
+    {
+      time: 65.8,
+      text: "Feel the sunshine..."
+    },
+    {
+      time: 75.5,
+      text: "Without you, there's nothing for me to do"
+    },
+    {
+      time: 80.0,
+      text: "Can you feel the sunshine, too?"
+    },
+    {
+      time: 82.7,
+      text: "It's comin' through"
+    },
+    {
+      time: 85.0,
+      text: "It makes me feel brand new"
+    },
+    {
+      time: 87.6,
+      text: "When you're here, I wish you were always near"
+    },
+    {
+      time: 92.5,
+      text: "'Cause everything's so clear"
+    },
+    {
+      time: 95.2,
+      text: "And today is gonna be a brighter day!"
+    },
+    {
+      time: 101.9,
+      text: "Can you feel the sunshine?"
+    },
+    {
+      time: 104.2,
+      text: "Does it brighten up your day?"
+    },
+    {
+      time: 107.4,
+      text: "(Brighten up your day...)"
+    },
+    {
+      time: 108.0,
+      text: "Don't you feel that sometimes you just need to run away?"
+    },
+    {
+      time: 114.0,
+      text: "Reach out for the sunshine"
+    },
+    {
+      time: 116.9,
+      text: "Forget about the rain"
+    },
+    {
+      time: 119.9,
+      text: "Just think about the good times"
+    },
+    {
+      time: 122.8,
+      text: "And they will come back again"
+    },
+    {
+      time: 126.2,
+      text: "When the sun goes down"
+    },
+    {
+      time: 128.9,
+      text: "I feel like I am waiting"
+    },
+    {
+      time: 132.1,
+      text: "For another day"
+    },
+    {
+      time: 134.9,
+      text: "When the clouds go away"
+    },
+    {
+      time: 140.0,
+      text: "Can you feel it?"
+    },
+    {
+      time: 143.1,
+      text: "Ooh-hoo..."
+    },
+    {
+      time: 146.1,
+      text: "Can you feel it?"
+    },
+    {
+      time: 148.8,
+      text: "Oh..."
+    },
+    {
+      time: 152.2,
+      text: "Can you feel it?"
+    },
+    {
+      time: 155.3,
+      text: "Oh..."
+    },
+    {
+      time: 158.2,
+      text: "Can you feel it?"
+    },
+    {
+      time: 162.7,
+      text: "Can you feel the sunshine?"
+    },
+    {
+      time: 165.1,
+      text: "Does it brighten up your day?"
+    },
+    {
+      time: 168.5,
+      text: "(Brighten up your day...)"
+    },
+    {
+      time: 168.8,
+      text: "Don't you feel that sometimes we just need to run away?"
+    },
+    {
+      time: 174.8,
+      text: "Reach out for the sunshine"
+    },
+    {
+      time: 177.6,
+      text: "Forget about the rain"
+    },
+    {
+      time: 180.7,
+      text: "Just think about the good times"
+    },
+    {
+      time: 183.5,
+      text: "And they will come back again"
+    },
+    {
+      time: 211.7,
+      text: "Can you feel the sunshine?"
+    },
+    {
+      time: 213.7,
+      text: "Does it brighten up your day?"
+    },
+    {
+      time: 216.2,
+      text: "(Brighten up your day...)"
+    },
+    {
+      time: 217.3,
+      text: "Don't you feel that sometimes you just need to run away?"
+    },
+    {
+      time: 223.4,
+      text: "(You just need to run away...)"
+    },
+    {
+      time: 223.4,
+      text: "Reach out for the sunshine"
+    },
+    {
+      time: 226.3,
+      text: "Forget about the rain"
+    },
+    {
+      time: 229.3,
+      text: "Just think about the good times"
+    },
+    {
+      time: 232.2,
+      text: "And they will come back again"
+    },
+    {
+      time: 235.6,
+      text: "Can you feel the sunshine?"
+    },
+    {
+      time: 237.7,
+      text: "(Can you feel it?)"
+    },
+    {
+      time: 238.6,
+      text: "Does it brighten up your day?"
+    },
+    {
+      time: 240.9,
+      text: "(Brighten up your day...)"
+    },
+    {
+      time: 242.3,
+      text: "Don't you feel that sometimes we just need to run away?"
+    },
+    {
+      time: 246.6,
+      text: "(Need to run away...)"
+    },
+    {
+      time: 247.5,
+      text: "Reach out for the sunshine"
+    },
+    {
+      time: 250.5,
+      text: "(Reach out...)"
+    },
+    {
+      time: 250.5,
+      text: "Forget about the rain"
+    },
+    {
+      time: 253.6,
+      text: "Just think about the good times"
+    },
+    {
+      time: 256.0,
+      text: "And they will come back again"
+    },
+    {
+      time: 260.6,
+      text: "Whoa-oh-oh-oh..."
+    },
+    {
+      time: 264.2,
+      text: "Brighten up your day..."
+    },
+    {
+      time: 270.0,
+      text: "You just need to run away..."
+    },
+    {
+      time: 276.5,
+      text: "Reach out..."
+    },
+    {
+      time: 277.5,
+      text: "You gotta reach out..."
+    },
+    {
+      time: 281.2,
+      text: "Come back again..."
+    },
+    {
+      time: 289.7,
+      text: "You gotta reach out..."
+    }
   ],
   "Sonic R|Living in the City": [
+    {
+      time: 15.6,
+      text: "Living in the city"
+    },
+    {
+      time: 17.1,
+      text: "You know you have to survive"
+    },
+    {
+      time: 20.3,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 23.5,
+      text: "Where everything is free"
+    },
+    {
+      time: 26.2,
+      text: "Can't you see?"
+    },
+    {
+      time: 28.5,
+      text: "Living in the city"
+    },
+    {
+      time: 30.1,
+      text: "You know you have to survive"
+    },
+    {
+      time: 33.3,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 36.5,
+      text: "Where everything is free"
+    },
+    {
+      time: 39.2,
+      text: "Can't you see?"
+    },
+    {
+      time: 42.4,
+      text: "So many different things to see"
+    },
+    {
+      time: 45.9,
+      text: "There's no time"
+    },
+    {
+      time: 48.9,
+      text: "So many different things to do"
+    },
+    {
+      time: 51.9,
+      text: "But there's no time"
+    },
+    {
+      time: 54.6,
+      text: "So many people all around"
+    },
+    {
+      time: 57.8,
+      text: "So many feelings to be found"
+    },
+    {
+      time: 61.1,
+      text: "Living in a city where no one lets you down"
+    },
+    {
+      time: 67.6,
+      text: "Living in the city"
+    },
+    {
+      time: 69.0,
+      text: "You know you have to survive"
+    },
+    {
+      time: 72.2,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 75.4,
+      text: "Where everything is free"
+    },
+    {
+      time: 78.1,
+      text: "Can't you see?"
+    },
+    {
+      time: 80.5,
+      text: "Living in the city, in the city"
+    },
+    {
+      time: 81.6,
+      text: "You know you have to survive"
+    },
+    {
+      time: 85.2,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 88.4,
+      text: "Where everything is free"
+    },
+    {
+      time: 91.1,
+      text: "Can't you see?"
+    },
+    {
+      time: 94.3,
+      text: "So many things that we've been through"
+    },
+    {
+      time: 97.7,
+      text: "Can you feel it?"
+    },
+    {
+      time: 100.8,
+      text: "So many things for us to do"
+    },
+    {
+      time: 103.8,
+      text: "But can you feel it?"
+    },
+    {
+      time: 106.4,
+      text: "So many faces all around"
+    },
+    {
+      time: 109.7,
+      text: "So many places to be found"
+    },
+    {
+      time: 113.0,
+      text: "Living in a city where nothing gets you down"
+    },
+    {
+      time: 118.1,
+      text: "Oh..."
+    },
+    {
+      time: 119.3,
+      text: "Living in the city"
+    },
+    {
+      time: 120.9,
+      text: "You know you have to survive"
+    },
+    {
+      time: 124.1,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 127.3,
+      text: "Where everything is free"
+    },
+    {
+      time: 129.9,
+      text: "Can't you see?"
+    },
+    {
+      time: 132.3,
+      text: "Living in the city"
+    },
+    {
+      time: 133.8,
+      text: "You know you have to survive"
+    },
+    {
+      time: 137.1,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 140.3,
+      text: "Where everything is free"
+    },
+    {
+      time: 143.0,
+      text: "Can't you see?"
+    },
+    {
+      time: 145.5,
+      text: "In the sky at night"
+    },
+    {
+      time: 148.4,
+      text: "The stars are shinin' bright"
+    },
+    {
+      time: 151.5,
+      text: "You can see the city lights"
+    },
+    {
+      time: 155.0,
+      text: "'Cause I'm here to make it right"
+    },
+    {
+      time: 161.1,
+      text: "In the city..."
+    },
+    {
+      time: 164.7,
+      text: "Oh..."
+    },
+    {
+      time: 166.3,
+      text: "Yeah..."
+    },
+    {
+      time: 168.5,
+      text: "Oh..."
+    },
+    {
+      time: 171.3,
+      text: "Living in the city"
+    },
+    {
+      time: 172.8,
+      text: "You know you have to survive"
+    },
+    {
+      time: 176.0,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 179.0,
+      text: "Where everything is free"
+    },
+    {
+      time: 181.9,
+      text: "Can't you see?"
+    },
+    {
+      time: 184.6,
+      text: "Living in the city"
+    },
+    {
+      time: 185.7,
+      text: "You know you have to survive"
+    },
+    {
+      time: 189.0,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 192.1,
+      text: "Where everything is free"
+    },
+    {
+      time: 194.8,
+      text: "Can't you see?"
+    },
+    {
+      time: 197.2,
+      text: "Living in the city"
+    },
+    {
+      time: 198.7,
+      text: "You know you have to survive"
+    },
+    {
+      time: 201.9,
+      text: "You've got to keep the dream alive"
+    },
+    {
+      time: 204.9,
+      text: "Where everything is free"
+    },
+    {
+      time: 207.8,
+      text: "Can't you see?"
+    },
+    {
+      time: 212.9,
+      text: "In the city, in the city"
+    },
+    {
+      time: 219.9,
+      text: "Living in the city"
+    },
+    {
+      time: 221.4,
+      text: "Oh..."
+    },
+    {
+      time: 224.2,
+      text: "In the city"
+    },
+    {
+      time: 226.3,
+      text: "Living in the city"
+    },
+    {
+      time: 227.1,
+      text: "Living in the city"
+    },
+    {
+      time: 237.6,
+      text: "You know you have to survive"
+    },
+    {
+      time: 240.1,
+      text: "Living in the city"
+    },
+    {
+      time: 241.3,
+      text: "Oh, oh, oh..."
+    },
+    {
+      time: 241.6,
+      text: "Living in the city"
+    },
+    {
+      time: 249.1,
+      text: "Oh, oh, oh, oh, oh..."
+    },
+    {
+      time: 252.3,
+      text: "Living in the city"
+    },
+    {
+      time: 253,
+      text: "In the city, in the city"
+    },
+    {
+      time: 255,
+      text: "Living in the city"
+    },
+    {
+      time: 260,
+      text: "In the city, in the city"
+    },
+    {
+      time: 271.3,
+      text: "Living in the city"
+    },
+    {
+      time: 283.9,
+      text: "Living in the city"
+    }
   ],
   "Sonic R|Back in Time": [
+    {
+      time: 27.4,
+      text: "Sometimes I ask myself"
+    },
+    {
+      time: 30.1,
+      text: "What am I doin' here?"
+    },
+    {
+      time: 33.4,
+      text: "I think of all the reasons"
+    },
+    {
+      time: 36.2,
+      text: "But it's still not clear"
+    },
+    {
+      time: 40.6,
+      text: "I look at places to go"
+    },
+    {
+      time: 43.1,
+      text: "There's nothin' near"
+    },
+    {
+      time: 45.5,
+      text: "So take me away from this"
+    },
+    {
+      time: 47.4,
+      text: "'Cause this place I'll hardly miss"
+    },
+    {
+      time: 51.7,
+      text: "So take me back in time"
+    },
+    {
+      time: 56.2,
+      text: "To another world"
+    },
+    {
+      time: 58.7,
+      text: "When you can be mine"
+    },
+    {
+      time: 62.8,
+      text: "We don't have to worry"
+    },
+    {
+      time: 65.2,
+      text: "When you're by my side"
+    },
+    {
+      time: 69.0,
+      text: "There's nothin' I don't know"
+    },
+    {
+      time: 71.5,
+      text: "There's nothin' to decide"
+    },
+    {
+      time: 75.6,
+      text: "Apart from where we want to go"
+    },
+    {
+      time: 92.3,
+      text: "What am I doin' now"
+    },
+    {
+      time: 95.0,
+      text: "By comin' back for more?"
+    },
+    {
+      time: 99.3,
+      text: "Is it me, or have I been here before?"
+    },
+    {
+      time: 105.5,
+      text: "I want to go somewhere"
+    },
+    {
+      time: 107.5,
+      text: "That we can explore"
+    },
+    {
+      time: 110.4,
+      text: "Just take me away from here"
+    },
+    {
+      time: 112.4,
+      text: "To somewhere that's nowhere near"
+    },
+    {
+      time: 116.7,
+      text: "So take me back in time"
+    },
+    {
+      time: 121.1,
+      text: "To another world"
+    },
+    {
+      time: 123.6,
+      text: "When you can be mine"
+    },
+    {
+      time: 127.7,
+      text: "We don't have to worry"
+    },
+    {
+      time: 130.0,
+      text: "When you're by my side"
+    },
+    {
+      time: 133.9,
+      text: "There's nothin' I don't know"
+    },
+    {
+      time: 136.3,
+      text: "There's nothin' to decide"
+    },
+    {
+      time: 140.4,
+      text: "Apart from where we want to go"
+    },
+    {
+      time: 147.1,
+      text: "Take me there..."
+      // Original timing file says "Take me home", but official lyrics are "Take me there"
+    },
+    {
+      time: 148.3,
+      text: "Take me anywhere you want to go"
+    },
+    {
+      time: 153.5,
+      text: "To a place that we both know"
+    },
+    {
+      time: 171.9,
+      text: "So take me..."
+    },
+    {
+      time: 177,
+      text: "So take me..."
+    },
+    {
+      time: 179,
+      text: "So take me..."
+    },
+    {
+      time: 182.3,
+      text: "So take me back in time"
+    },
+    {
+      time: 186.0,
+      text: "To another world"
+    },
+    {
+      time: 188.5,
+      text: "When you can be mine"
+    },
+    {
+      time: 192.5,
+      text: "We don't have to worry"
+    },
+    {
+      time: 194.9,
+      text: "When you're by my side"
+    },
+    {
+      time: 198.7,
+      text: "There's nothin' I don't know"
+    },
+    {
+      time: 201.2,
+      text: "There's nothin' to decide"
+    },
+    {
+      time: 205.3,
+      text: "Apart from where we want to go"
+    },
+    {
+      time: 209.4,
+      text: "Back in time..."
+    },
+    {
+      time: 210.8,
+      text: "I'm goin' back in time..."
+    },
+    {
+      time: 215.2,
+      text: "Back in time..."
+    },
+    {
+      time: 220.4,
+      text: "So take me..."
+    },
+    {
+      time: 221.7,
+      text: "Back in time..."
+    },
+    {
+      time: 226.9,
+      text: "So take me..."
+    },
+    {
+      time: 233.3,
+      text: "So take me..."
+    },
+    {
+      time: 242.0,
+      text: "Back in time..."
+    },
+    {
+      time: 243.1,
+      text: "So take me..."
+    },
+    {
+      time: 246.3,
+      text: "So take me..."
+    },
+    {
+      time: 247.2,
+      text: "Back in time..."
+    },
+    {
+      time: 247.2,
+      text: "So take me..."
+    },
+    {
+      time: 247.2,
+      text: "Back in time..."
+    },
+    {
+      time: 247.2,
+      text: "So take me..."
+    },
+    {
+      time: 247.2,
+      text: "So take me..."
+    },
+    {
+      time: 247.6,
+      text: "Back in time..."
+    },
+    {
+      time: 250.2,
+      text: "Back in time..."
+    },
+    {
+      time: 261.2,
+      text: "Back in time..."
+    },
+    {
+      time: 263.2,
+      text: "Back in time..."
+    }
   ],
   "Sonic R|Work It Out": [
+    {
+      time: 26.7,
+      text: "We all need to work together"
+    },
+    {
+      time: 30.3,
+      text: "To build a better life"
+    },
+    {
+      time: 33.7,
+      text: "To make it what we feel"
+    },
+    {
+      time: 37.1,
+      text: "We have to make it real"
+    },
+    {
+      time: 40.2,
+      text: "We all need to remember"
+    },
+    {
+      time: 44.5,
+      text: "That nothing in this world comes for free"
+    },
+    {
+      time: 46.8,
+      text: "We have to make it what we want"
+    },
+    {
+      time: 50.6,
+      text: "Just you and me and everybody"
+    },
+    {
+      time: 54.2,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 55.8,
+      text: "Think about it"
+    },
+    {
+      time: 57.5,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 59.2,
+      text: "Talk about it"
+    },
+    {
+      time: 60.9,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 62.6,
+      text: "Make it happen"
+    },
+    {
+      time: 64.0,
+      text: "Let's work it out, work it out"
+    },
+    {
+      time: 66.2,
+      text: "We've got to make it real"
+    },
+    {
+      time: 70.0,
+      text: "We've got to make it real"
+    },
+    {
+      time: 73.0,
+      text: "We've got to make it real"
+    },
+    {
+      time: 76.8,
+      text: "We've got to make it real"
+    },
+    {
+      time: 87.4,
+      text: "We all know that life gets harder"
+    },
+    {
+      time: 90.9,
+      text: "It's getting harder day by day"
+    },
+    {
+      time: 94.0,
+      text: "But we can show that we are trying"
+    },
+    {
+      time: 97.7,
+      text: "We're making sure that everyone can say"
+    },
+    {
+      time: 100.9,
+      text: "You're the one I can depend on"
+    },
+    {
+      time: 104.6,
+      text: "No one else can put it right"
+    },
+    {
+      time: 107.6,
+      text: "I'm someone you can rely on"
+    },
+    {
+      time: 111.4,
+      text: "'Cause we're not giving up without a fight"
+    },
+    {
+      time: 115.7,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 116.8,
+      text: "Think about it"
+    },
+    {
+      time: 118.2,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 119.9,
+      text: "Talk about it"
+    },
+    {
+      time: 121.6,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 123.2,
+      text: "Make it happen"
+    },
+    {
+      time: 124.7,
+      text: "Let's work it out, work it out"
+    },
+    {
+      time: 126.9,
+      text: "We've got to make it real"
+    },
+    {
+      time: 130.7,
+      text: "We've got to make it real"
+    },
+    {
+      time: 133.6,
+      text: "We've got to make it real"
+    },
+    {
+      time: 137.4,
+      text: "We've got to make it real"
+    },
+    {
+      time: 155.3,
+      text: "Yeeeeeeeeeeeeeeeeeeeeah"
+    },
+    {
+      time: 161.5,
+      text: "Oh-hoh, oh-hoh..."
+    },
+
+    // Primeiro chorus pós-YEAH
+
+    {
+      time: 169.8,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 171.4,
+      text: "Think about it"
+    },
+    {
+      time: 173.1,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 174.8,
+      text: "Talk about it"
+    },
+    {
+      time: 176.5,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 178.2,
+      text: "Make it happen"
+    },
+    {
+      time: 179.7,
+      text: "Let's work it out, work it out"
+    },
+    {
+      time: 181.9,
+      text: "We've got to make it real"
+    },
+    {
+      time: 185.7,
+      text: "We've got to make it real"
+    },
+    {
+      time: 188.6,
+      text: "We've got to make it real"
+    },
+    {
+      time: 192.4,
+      text: "We've got to make it real"
+    },
+
+
+    // Overlap 1
+
+    {
+      time: 202.2,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 203.3,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 203.3,
+      text: "Think about it"
+    },
+    {
+      time: 206.4,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 207.5,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 207.5,
+      text: "Talk about it"
+    },
+    {
+      time: 210.0,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 210.9,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 210.9,
+      text: "Make it happen"
+    },
+    {
+      time: 212.9,
+      text: "Let's work it out, work it out"
+    },
+    {
+      time: 214.2,
+      text: "We've got to make it real"
+    },
+
+
+    // Overlap 2 (mais cheio)
+
+    {
+      time: 216.9,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 218.0,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 218.0,
+      text: "Think about it"
+    },
+    {
+      time: 220.0,
+      text: "(Think about it)"
+    },
+    {
+      time: 220.1,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 221.1,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 221.1,
+      text: "Talk about it"
+    },
+    {
+      time: 223.6,
+      text: "(Talk about it)"
+    },
+    {
+      time: 223.6,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 224.7,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 224.7,
+      text: "Make it happen"
+    },
+    {
+      time: 227.0,
+      text: "(Make it happen)"
+    },
+    {
+      time: 227.0,
+      text: "Let's work it out, work it out"
+    },
+    {
+      time: 227.9,
+      text: "We've got to make it real"
+    },
+
+
+    // Refrão final
+
+    {
+      time: 230.1,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 231.4,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 231.4,
+      text: "Think about it"
+    },
+    {
+      time: 234.0,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 234.6,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 234.6,
+      text: "Talk about it"
+    },
+    {
+      time: 237.1,
+      text: "Work it out, work it out"
+    },
+    {
+      time: 238.1,
+      text: "(We've got to make it real)"
+    },
+    {
+      time: 238.1,
+      text: "Make it happen"
+    },
+    {
+      time: 240.2,
+      text: "Let's work it out, work it out"
+    },
+    {
+      time: 240.8,
+      text: "We've got to make it real (Real, yeah)"
+    },
+
+
+    // Finalizações
+
+    {
+      time: 243.7,
+      text: "We've got to make it real"
+    },
+    {
+      time: 247.6,
+      text: "We've got to make it real"
+    },
+    {
+      time: 250.5,
+      text: "We've got to make it real"
+    },
+    {
+      time: 254.3,
+      text: "We've got to make it real"
+    }
   ],
   "Sonic R|Diamond in the Sky": [
+    {
+      time: 26.38,
+      text: "Another day is like a new beginning"
+    },
+    {
+      time: 32.72,
+      text: "And so today I know that it's a new start"
+    },
+    {
+      time: 39.08,
+      text: "I know the bad times are disappearing"
+    },
+    {
+      time: 45.42,
+      text: "Cause now I know that we'll never be apart"
+    },
+    {
+      time: 51.30,
+      text: "You're the one that makes me feel so high"
+    },
+    {
+      time: 56.04,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 57.54,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 61.99,
+      text: "Cause you're my diamond in the sky"
+    },
+    {
+      time: 64.12,
+      text: "You're the one that makes me feel so high"
+    },
+    {
+      time: 68.28,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 70.36,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 75.22,
+      text: "Cause you're my diamond in the sky"
+    },
+    {
+      time: 80.12,
+      text: "Yeah"
+    },
+
+    {
+      time: 90.36,
+      text: "Another road that we must travel"
+    },
+    {
+      time: 96.70,
+      text: "Another night for you to show me the way"
+    },
+    {
+      time: 103.10,
+      text: "And so today, I give up dreaming"
+    },
+    {
+      time: 109.36,
+      text: "Cause now I know, that I need you everyday"
+    },
+    {
+      time: 115.30,
+      text: "You're the one that makes me feel so high"
+    },
+    {
+      time: 120.14,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 121.56,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 125.99,
+      text: "Cause you're my diamond in the sky"
+    },
+    {
+      time: 128.10,
+      text: "You're the one that makes me feel so high"
+    },
+    {
+      time: 132.35,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 134.32,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 138.67,
+      text: "Cause you're my diamond in the sky"
+    },
+    {
+      time: 141.78,
+      text: "Yeah"
+    },
+
+    {
+      time: 146.34,
+      text: "Oh..."
+    },
+    {
+      time: 154.92,
+      text: "Where do all the rainbows go?"
+    },
+    {
+      time: 156.72,
+      text: "To somewhere I don't know"
+    },
+    {
+      time: 160.70,
+      text: "Wherever it is"
+    },
+    {
+      time: 162.06,
+      text: "I want to go"
+    },
+    {
+      time: 167.30,
+      text: "Oh, oh, oh"
+    },
+    {
+      time: 171.94,
+      text: "Wherever it is, I want to go"
+    },
+    {
+      time: 180.90,
+      text: "Feel so high..."
+    },
+    {
+      time: 190.56,
+      text: "Feel so high!"
+    },
+
+    {
+      time: 190.56,
+      text: "You're the one that makes me feel so high"
+    },
+    {
+      time: 197.30,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 198.32,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 203.23,
+      text: "Cause you're my diamond in the sky"
+    },
+    {
+      time: 204.86,
+      text: "You're the one that makes me feel so high"
+    },
+    {
+      time: 209.28,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 211.12,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 215.54,
+      text: "Cause you're my diamond in the sky"
+    },
+
+    {
+      time: 223.44,
+      text: "Feel so high"
+    },
+    {
+      time: 230.46,
+      text: "You're the one that makes me feel so high"
+    },
+    {
+      time: 235.24,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 236.72,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 245.05,
+      text: "Diamond in the sky"
+    },
+    {
+      time: 246.28,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 249.48,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 253,
+      text: "Diamond in the sky"
+    },
+    {
+      time: 255.50,
+      text: "Oh, you're the one that makes me feel so high"
+    },
+    {
+      time: 259.78,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 262.32,
+      text: "I never want to hear you say goodbye"
+    },
+    {
+      time: 266,
+      text: "Diamond in the sky"
+    },
+    {
+      time: 271.30,
+      text: "Just like the diamonds in the sky"
+    },
+    {
+      time: 275.11,
+      text: "High"
+    },
+    {
+      time: 276.78,
+      text: "Oh"
+    },
+    {
+      time: 280.10,
+      text: "Diamond in the sky"
+    },
+    {
+      time: 284.08,
+      text: "Just like the diamonds in the sky"
+    }
   ],
   "Sonic R|Super Sonic Racing": [
   ],
@@ -1002,6 +2810,370 @@ const lyricsMap = {
   "Sonic the Hedgehog: The Movie|Look-a-Like": [
   ],
   "Sonic Adventure|Open Your Heart": [
+  ],
+  "Sonic Adventure 2|Escape From the City": [
+    {
+      time: 2.2,
+      text: "Whoo! Oh yeah!"
+    },
+    {
+      time: 9.8,
+      text: "Rolling around at the speed of sound"
+    },
+    {
+      time: 13.1,
+      text: "Got places to go, gotta follow my rainbow"
+    },
+    {
+      time: 17.2,
+      text: "Can't stick around, have to keep moving on"
+    },
+    {
+      time: 20.4,
+      text: "Guess what lies ahead, only one way to find out"
+    },
+    {
+      time: 24.9,
+      text: "Must keep on moving ahead"
+    },
+    {
+      time: 28.3,
+      text: "No time for guessing, follow my plan instead"
+    },
+    {
+      time: 32.2,
+      text: "Trusting in what you can't see"
+    },
+    {
+      time: 35.5,
+      text: "Take my lead; I'll set you free"
+    },
+    {
+      time: 39.2,
+      text: "Follow me, set me free"
+    },
+    {
+      time: 42.8,
+      text: "Trust me and we will escape from the city"
+    },
+    {
+      time: 47.1,
+      text: "I'll make it through"
+    },
+    {
+      time: 49.3,
+      text: "Follow me (follow me), set me free"
+    },
+    {
+      time: 53.9,
+      text: "Trust me and we will escape from the city"
+    },
+    {
+      time: 58.1,
+      text: "I'll make it through, prove it to you"
+    },
+    {
+      time: 62.7,
+      text: "Follow me"
+    },
+    {
+      time: 66.6,
+      text: "Oh yeah"
+    },
+    {
+      time: 70.6,
+      text: "Danger is lurking around every turn"
+    },
+    {
+      time: 74.2,
+      text: "Trust your feelings, got to live and learn"
+    },
+    {
+      time: 78.2,
+      text: "I know with some luck that I'll make it through"
+    },
+    {
+      time: 81.4,
+      text: "Got no other options, only one thing to do"
+    },
+    {
+      time: 86.1,
+      text: "I don't care what lies ahead"
+    },
+    {
+      time: 89.2,
+      text: "No time for guessing, follow my plan instead"
+    },
+    {
+      time: 92.9,
+      text: "Find the next stage, no matter what that may be"
+    },
+    {
+      time: 96.4,
+      text: "Take my lead, I'll set you free"
+    },
+    {
+      time: 100.1,
+      text: "Follow me, set me free"
+    },
+    {
+      time: 103.8,
+      text: "Trust me and we will escape from the city"
+    },
+    {
+      time: 108.0,
+      text: "I'll make it through"
+    },
+    {
+      time: 110.2,
+      text: "Follow me (follow me), set me free"
+    },
+    {
+      time: 114.8,
+      text: "Trust me and we will escape from the city"
+    },
+    {
+      time: 119.0,
+      text: "I'll make it through, prove it to you"
+    },
+    {
+      time: 123.6,
+      text: "Follow me"
+    },
+    {
+      time: 127.3,
+      text: "Follow me"
+    },
+    {
+      time: 131.9,
+      text: "I'll make it through, oh yeah"
+    }
+  ],
+  "Sonic Adventure 2|Live & Learn": [
+    {
+      time: 14.5,
+      text: "Can you feel life movin' through your mind?"
+    },
+    {
+      time: 20.5,
+      text: "Ooh, looks like it came back for more, yeah!"
+    },
+    {
+      time: 25.0,
+      text: "Can you feel time slippin' down your spine?"
+    },
+    {
+      time: 32.2,
+      text: "Ooh, you try and try to ignore, yeah!"
+    },
+    {
+      time: 37.9,
+      text: "But you can hardly swallow your fears and pain"
+    },
+    {
+      time: 49.1,
+      text: "When you can't help but follow"
+    },
+    {
+      time: 54.8,
+      text: "It puts you right back where you came"
+    },
+    {
+      time: 61.6,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 63.7,
+      text: "Hanging on the edge of tomorrow"
+    },
+    {
+      time: 67.2,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 68.6,
+      text: "From the works of yesterday"
+    },
+    {
+      time: 72.8,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 74.9,
+      text: "If you beg or if you borrow"
+    },
+    {
+      time: 78.3,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 79.8,
+      text: "You may never find your way"
+    },
+    {
+      time: 85.7,
+      text: "Whoa, oh, oh yeah!"
+    },
+    {
+      time: 91.3,
+      text: "Can you feel life tangle you up inside?"
+    },
+    {
+      time: 97.1,
+      text: "Yeah, now your face down on the floor!"
+    },
+    {
+      time: 101.4,
+      text: "Oh-oh!"
+    },
+    {
+      time: 103.5,
+      text: "But you can't save your sorrow"
+    },
+    {
+      time: 108,
+      text: "You've paid in trade"
+    },
+    {
+      time: 114.5,
+      text: "When you can't help but follow"
+    },
+    {
+      time: 120.4,
+      text: "It puts you right back where you came"
+    },
+    {
+      time: 127.2,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 129.3,
+      text: "Hanging on the edge of tomorrow"
+    },
+    {
+      time: 132.8,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 134.2,
+      text: "From the works of yesterday"
+    },
+    {
+      time: 138.4,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 140.5,
+      text: "If you beg or if you borrow"
+    },
+    {
+      time: 143.9,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 145.4,
+      text: "You may never find your way"
+    },
+    {
+      time: 154.4,
+      text: "Hey, whoa, whoa"
+    },
+    {
+      time: 156.9,
+      text: "Oh, yeah!"
+    },
+    {
+      time: 157.3,
+      text: "Yeah, yeah, yeah, yeah, yeah!"
+    },
+    {
+      time: 179.5,
+      text: "There's a face searching far, so far and wide"
+    },
+    {
+      time: 185.9,
+      text: "There's a place where you dream you'd never find"
+    },
+    {
+      time: 190.7,
+      text: "Hold on to what if?"
+    },
+    {
+      time: 193.5,
+      text: "Hold on to what if?"
+    },
+    {
+      time: 198.4,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 200.5,
+      text: "Hanging on the edge of tomorrow"
+    },
+    {
+      time: 203.9,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 205.4,
+      text: "From the works of yesterday"
+    },
+    {
+      time: 209.5,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 211.6,
+      text: "If you beg or if you borrow"
+    },
+    {
+      time: 215.1,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 216.6,
+      text: "You may never find your way"
+    },
+    {
+      time: 221.4,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 223.5,
+      text: "Hanging on the edge of tomorrow"
+    },
+    {
+      time: 227.0,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 228.4,
+      text: "From the works of yesterday"
+    },
+    {
+      time: 232.6,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 234.7,
+      text: "If you beg or if you borrow"
+    },
+    {
+      time: 238.2,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 239.6,
+      text: "You may never find your way"
+    },
+    {
+      time: 249.3,
+      text: "LIVE AND LEARN"
+    },
+    {
+      time: 264.0,
+      text: "LIVE AND LEARN"
+    }
   ]
 };
 
