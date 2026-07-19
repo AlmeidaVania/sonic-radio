@@ -913,10 +913,10 @@ body.oled-mode .playlist::-webkit-scrollbar-thumb:hover {
 
 .info-box.trivia .info-content {
 
-  font-size: 20px;
+  font-size: 20px, content-box;
   line-height: 1.6;
 
-  text-align: center;
+  text-align: left;
   word-spacing: 0.1em;
 
   transform: rotateX(8deg);
@@ -925,7 +925,7 @@ body.oled-mode .playlist::-webkit-scrollbar-thumb:hover {
 }
 
 .info-box.trivia {
-  flex: 0 0 200px;
+  flex: 0 0 200px, content-box;
   max-width: 200px;
 }
 
@@ -1052,6 +1052,8 @@ body.oled-mode .info-box.trivia .info-content {
 
   font-size: 25px;
   line-height: 2;
+  word-spacing: 0.1em;
+  letter-spacing: 0.2px;
 
   text-align: left;
 
@@ -2950,10 +2952,10 @@ body.oled-mode .progress.new-moon.awakened {
 .player.super-sonic-mode {
 
   background:
-    linear-gradient(135deg,
-      rgba(120, 90, 0, .75),
-      rgba(255, 190, 0, .25),
-      rgba(40, 30, 0, .80));
+    linear-gradient(90deg,
+      rgba(220, 165, 0, .65),
+      rgba(166, 124, 0, .65),
+      rgba(220, 165, 0, .65));
 
   border-top: 6px solid #fff799;
   border-bottom: 6px solid #ffd700;
@@ -2961,8 +2963,8 @@ body.oled-mode .progress.new-moon.awakened {
   border-right: 6px solid #fff3a0;
 
   box-shadow:
-    0 0 16px rgba(255, 215, 0, .22),
-    0 0 28px rgba(255, 200, 0, .16),
+    0 0 16px #ffd700,
+    0 0 28px #ffcc00,
     0 14px 30px rgba(0, 0, 0, .14),
     inset 0 1px 0 rgba(255, 255, 255, .55);
 }
@@ -2974,8 +2976,91 @@ body.oled-mode .progress.new-moon.awakened {
     saturate(1.2) brightness(1.04);
 
   box-shadow:
-    0 0 18px rgba(255, 240, 140, .45),
-    0 0 36px rgba(255, 220, 0, .35);
+    0 0 18px #fff08c,
+    0 0 36px #ffdc00;
+}
+
+body .player.super-sonic-mode #volumeSlider {
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 6px;
+  border-radius: 10px;
+  accent-color: #dca500;
+}
+
+/* Chrome / Edge / Brave */
+body .player.super-sonic-mode #volumeSlider::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffe02f;
+  border: 2px solid #8c6a2d;
+  cursor: pointer;
+
+  box-shadow:
+    0 0 8px rgba(255, 215, 0, .45),
+    0 0 16px rgba(255, 204, 0, .25);
+}
+
+/* Firefox */
+body .player.super-sonic-mode #volumeSlider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffe02f;
+  border: 2px solid #8c6a2d;
+  cursor: pointer;
+
+  box-shadow:
+    0 0 8px rgba(255, 215, 0, .45),
+    0 0 16px rgba(255, 204, 0, .25);
+}
+
+body .player.super-sonic-mode .controls button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  font-style: italic;
+  font-size: 18px;
+  font-family: "Syntax Ultra Black", sans-serif;
+  letter-spacing: 0.5px;
+
+  color: #fff0aa;
+
+  text-shadow:
+    2px 2px 5px rgba(0, 0, 0, .55),
+    0 0 8px rgba(255, 215, 0, .25);
+
+  background:
+    linear-gradient(135deg,
+      rgba(220, 165, 0, .9),
+      rgba(166, 124, 0, .95),
+      rgba(90, 65, 10, .95));
+
+  border-top: 3px solid #ffe74a;
+  border-bottom: 3px solid #6b4b00;
+  border-left: 3px solid #dca500;
+  border-right: 3px solid #b8860b;
+
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, .35),
+    0 0 12px rgba(255, 215, 0, .25);
+
+  transition:
+    transform .18s cubic-bezier(.22, 1, .36, 1),
+    box-shadow .25s ease,
+    filter .25s ease,
+    background .25s ease;
 }
 
 /* screenshots */
@@ -2985,7 +3070,7 @@ body.oled-mode .progress.new-moon.awakened {
     saturate(1.4) brightness(1.1);
 
   box-shadow:
-    0 0 26px rgba(255, 220, 0, .55);
+    0 0 26px #ffdc00;
 }
 
 /* progress bar */
@@ -3001,7 +3086,7 @@ body.oled-mode .progress.new-moon.awakened {
   box-shadow:
     0 0 10px #ffe600,
     0 0 20px #ffcc00,
-    0 0 34px rgba(255, 230, 0, 0.9);
+    0 0 34px #ffe600;
 
   animation:
     superBar 1.8s linear infinite;
@@ -3031,30 +3116,13 @@ body.oled-mode .progress.new-moon.awakened {
   }
 }
 
-.player.super-sonic-mode .track-title {
-  color: #d89d00;
-
-  text-shadow:
-    1px 1px 0 rgba(255, 255, 255, .7),
-    0 0 8px rgba(255, 215, 0, .32);
-}
-
-.player.super-sonic-mode #trackGame {
-
-  color:
-    rgba(255, 245, 180, .92);
-
-  text-shadow: none;
-}
-
 .player.super-sonic-mode #trackComposer {
 
-  color:
-    rgb(255, 226, 99);
+  color: rgb(255, 226, 99);
 
   text-shadow:
-    0 0 10px rgba(255, 215, 0, .45),
-    0 0 18px rgba(255, 215, 0, .25),
+    0 0 8px rgba(255, 215, 0, .35),
+    0 0 18px rgba(255, 204, 0, .18),
     0 0 5px rgba(0, 0, 0, .5);
 }
 
@@ -3064,15 +3132,15 @@ body.oled-mode .progress.new-moon.awakened {
 
 @keyframes superGlow {
   0% {
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 0 15px #ffe600;
   }
 
   50% {
-    box-shadow: 0 0 35px rgba(255, 215, 0, 0.6);
+    box-shadow: 0 0 35px #ffcc00;
   }
 
   100% {
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 0 15px #ffe600;
   }
 }
 
@@ -3088,19 +3156,18 @@ body .player.super-sonic-mode #trackTitle {
   color: #ffe02f;
 
   text-shadow:
-    0 0 10px rgba(255, 215, 0, .45),
-    0 0 18px rgba(255, 215, 0, .25),
-    0 0 5px rgba(0, 0, 0, .5);
+    0 0 8px rgba(255, 215, 0, .35),
+    0 0 18px rgba(255, 204, 0, .18),
+    0 0 5px rgba(0, 0, 0, .6);
 }
 
 body .player.super-sonic-mode #trackGame {
 
-  color:
-    rgb(255, 231, 74);
+  color: rgb(255, 231, 74);
 
   text-shadow:
-    0 0 10px rgba(255, 215, 0, .45),
-    0 0 18px rgba(255, 215, 0, .25),
+    0 0 8px rgba(255, 215, 0, .35),
+    0 0 18px rgba(255, 204, 0, .18),
     0 0 5px rgba(0, 0, 0, .5);
 }
 
@@ -3109,9 +3176,9 @@ body .player.super-sonic-mode #timeDisplay {
   color: #ffe02f;
 
   text-shadow:
-    0 0 10px rgba(255, 215, 0, .45),
-    0 0 18px rgba(255, 215, 0, .25),
-    0 0 5px rgba(0, 0, 0, .5);
+    0 0 8px rgba(255, 215, 0, .35),
+    0 0 18px rgba(255, 204, 0, .18),
+    0 0 5px rgba(0, 0, 0, .6);
 }
 
 body.dark-mode .player.super-sonic-mode .track-title {
@@ -3133,8 +3200,11 @@ body.dark-mode .player.super-sonic-mode #trackGame {
 
 body.dark-mode .player.super-sonic-mode #trackComposer {
 
-  color:
-    rgba(255, 240, 170, .55);
+  color: rgba(255, 240, 170, .65);
+
+  text-shadow:
+    0 0 6px rgba(255, 215, 0, .2),
+    0 0 12px rgba(255, 200, 50, .1);
 }
 
 body.oled-mode .player.super-sonic-mode {
