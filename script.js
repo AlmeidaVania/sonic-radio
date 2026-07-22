@@ -4123,6 +4123,16 @@ function loadTrack(index) {
   selected.classList.add("active");
 
   document
+    .querySelectorAll(".collection")
+    .forEach(collection =>
+      collection.classList.remove("active-collection")
+    );
+
+  selected
+    .closest(".collection")
+    ?.classList.add("active-collection");
+
+  document
     .querySelectorAll(".disc")
     .forEach(disc =>
       disc.classList.remove("active-disc")

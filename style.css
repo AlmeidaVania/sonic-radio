@@ -1346,8 +1346,41 @@ body.oled-mode .lyric-line {
 
 }
 
+.collection.active-collection .collection-title {
+
+  background:
+    linear-gradient(to bottom,
+      #ffdc2c,
+      #FBD200,
+      #D7A800);
+
+  color: white;
+
+  border-color:
+    rgba(255, 255, 255, .9);
+
+  text-shadow:
+    1px 1px 3px rgba(0, 0, 0, .45);
+
+  box-shadow:
+    0 0 12px rgba(251, 210, 0, .45),
+    0 4px 10px rgba(0, 0, 0, .18);
+}
+
 .collection>.collection-title {
   border-left: 6px solid #0E8F30;
+}
+
+.collection.active-collection>.collection-title {
+  border-left-color: #FFF18A;
+}
+
+.collection.active-collection .collection-title::after {
+  background: #FFF18A;
+
+  box-shadow:
+    0 0 8px #FBD200,
+    0 0 16px #FBD200;
 }
 
 .disc>.disc-title {
@@ -1677,6 +1710,28 @@ body.dark-mode .game.active-game .game-title {
     0 4px 10px rgba(0, 0, 0, .45);
 }
 
+body.dark-mode .collection.active-collection .collection-title {
+
+  background:
+    linear-gradient(to bottom,
+      #E6C84A,
+      #C89B00,
+      #8A6500);
+
+  color: #FFFCEB;
+
+  border-color:
+    rgba(255, 255, 255, .25);
+
+  box-shadow:
+    0 0 16px rgba(251, 210, 0, .28),
+    0 4px 10px rgba(0, 0, 0, .45);
+}
+
+body.dark-mode .collection.active-collection>.collection-title {
+  border-left-color: #FFD84A;
+}
+
 body.dark-mode .disc::before {
 
   background:
@@ -1827,8 +1882,25 @@ body.oled-mode .game.active-game .game-title {
 
 }
 
+body.oled-mode .collection.active-collection .collection-title {
+
+  background:
+    linear-gradient(to bottom,
+      #4A4122,
+      #2B2410);
+
+  border-color: #6A5D35;
+
+  box-shadow:
+    0 0 8px rgba(255, 220, 100, .10);
+}
+
 body.oled-mode .collection>.collection-title {
   border-left: 6px solid #5f5f5f;
+}
+
+body.oled-mode .collection.active-collection>.collection-title {
+  border-left-color: #A08A40;
 }
 
 body.oled-mode .disc>.disc-title {
